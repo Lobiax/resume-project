@@ -18,6 +18,7 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+
 /*------------------------------------Heading*/
 header {
     margin: 0;
@@ -105,6 +106,25 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*-----------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 
 /*-----------------------------------Hover.css*/
